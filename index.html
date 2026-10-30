@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Mathura Das</title>
+    <meta name="description" content="Mathura Das is a full-stack software engineer at Deque Systems with a frontend focus, building fast web apps and AI systems with TypeScript, React, Vue and Node.js.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mathura Das, software engineer">
+    <meta property="og:description" content="Full-stack engineer with a frontend focus. TypeScript, React, Vue, Node.js, GraphQL, MongoDB and PostgreSQL.">
+    <meta property="og:image" content="assets/portrait.jpg">
+    <meta name="theme-color" content="#f4f6f8" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0d1218" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f0a202'/%3E%3Ctext x='16' y='22.5' font-family='Arial,sans-serif' font-size='18' font-weight='800' text-anchor='middle' fill='%2312201f'%3EM%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      try {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.dataset.theme = theme;
+        }
+      } catch {}
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="brand" href="#top">Mathura Das</a>
+        <nav class="site-nav" aria-label="Primary">
+          <ul class="nav">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <span class="nav__indicator" aria-hidden="true"></span>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" />
+          </svg>
+          <span class="visually-hidden">Dark theme</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-name">
+        <div class="wrap hero__grid">
+          <div class="hero__intro">
+            <div class="hero__id intro" style="--d: 0ms">
+              <img class="portrait" src="assets/portrait.jpg" width="136" height="136" alt="Photo of Mathura Das">
+              <div>
+                <p class="eyebrow">Software Development Engineer III</p>
+                <p class="hero__where">Deque Systems <span aria-hidden="true">·</span> India</p>
+              </div>
+            </div>
+            <h1 id="hero-name" class="hero__name"><span class="word"><span style="--d: 120ms">Mathura</span></span> <span class="word"><span style="--d: 200ms">Das</span></span></h1>
+            <p class="hero__lead intro" style="--d: 320ms">Full-stack engineer with a frontend focus. Since 2020 I've built production web apps and AI-powered systems with TypeScript, React, Vue, Node.js, GraphQL, MongoDB and PostgreSQL, and made several of them a lot faster.</p>
+            <p class="hero__now intro" style="--d: 400ms">Previously at HighLevel, Instill, CAW Studios and Capgemini.</p>
+            <ul class="hero__actions intro" style="--d: 480ms">
+              <li><a class="btn btn--primary" href="mailto:mathuradas333@gmail.com">Email me</a></li>
+              <li><a class="btn" href="https://github.com/mathura333">GitHub</a></li>
+              <li><a class="btn" href="https://www.linkedin.com/in/mathuradas">LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <div class="readout intro" style="--d: 560ms">
+            <h2 class="readout__title">Measured results</h2>
+            <dl>
+              <div>
+                <dt>Page load time on Hoichoi TV</dt>
+                <dd><span class="visually-hidden">−50%</span><span aria-hidden="true" data-count="-50">−50%</span></dd>
+              </div>
+              <div>
+                <dt>Load time on Instill AI</dt>
+                <dd><span class="visually-hidden">−20%</span><span aria-hidden="true" data-count="-20">−20%</span></dd>
+              </div>
+              <div>
+                <dt>Internal team productivity at Capgemini</dt>
+                <dd><span class="visually-hidden">+15%</span><span aria-hidden="true" data-count="15">+15%</span></dd>
+              </div>
+              <div>
+                <dt>LinkedIn JavaScript assessment, of 0.8M people</dt>
+                <dd>Top 5%</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="wrap about">
+          <header class="section__head">
+            <h2 id="about-title">About</h2>
+          </header>
+          <div class="about__body">
+            <p class="about__lead">I'm a full-stack engineer at Deque Systems, the accessibility company behind axe. I build features for Deque's accessibility products with TypeScript and Node.js, from the interface down to the services and infrastructure that run them.</p>
+            <p>Before Deque I spent five years building product frontends and the systems behind them. At CAW Studios I led teams on client products, designed the monorepo behind Hoichoi's web and TV apps and cut their page load times in half. At Instill I grew from frontend into full-stack work on an AI-driven workplace platform. At HighLevel I built Vue micro frontends and NestJS APIs for a CRM used at very large scale.</p>
+            <p>I care about software that is fast, accessible and easy to run. I learn new stacks quickly, take features from design to production, and use AI coding tools to automate the slow parts of development. I studied Electrical Engineering at IIT (ISM) Dhanbad.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section" aria-labelledby="experience-title">
+        <div class="wrap">
+          <header class="section__head">
+            <h2 id="experience-title">Experience</h2>
+            <p class="section__meta">5 roles and an internship</p>
+          </header>
+
+          <figure class="waterfall">
+            <div class="wf-head" aria-hidden="true">
+              <span class="wf-col">Name</span>
+              <span class="wf-col wf-col--type">Type</span>
+              <span class="wf-col wf-col--time">Time</span>
+              <ol class="wf-axis">
+                <li style="--m: 0">2016</li>
+                <li style="--m: 12">2017</li>
+                <li style="--m: 24">2018</li>
+                <li style="--m: 36">2019</li>
+                <li style="--m: 48">2020</li>
+                <li style="--m: 60">2021</li>
+                <li style="--m: 72">2022</li>
+                <li style="--m: 84">2023</li>
+                <li style="--m: 96">2024</li>
+                <li style="--m: 108">2025</li>
+                <li style="--m: 120">2026</li>
+              </ol>
+            </div>
+            <ol class="wf-rows">
+              <li class="wf-row wf-row--edu" style="--s: 6; --e: 53">
+                <a href="#education">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/iit-ism.png" alt="" width="16" height="16">IIT (ISM) Dhanbad</span>
+                  <span class="wf-type">Degree</span>
+                  <span class="wf-time">3 yr 11 mo</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">July 2016 to May 2020</span></span>
+                </a>
+              </li>
+              <li class="wf-row wf-row--intern" style="--s: 14; --e: 15">
+                <a href="#role-mcaffeine">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/mcaffeine-icon.png" alt="" width="16" height="16">mCaffeine</span>
+                  <span class="wf-type">Intern</span>
+                  <span class="wf-time">1 mo</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">March 2017</span></span>
+                </a>
+              </li>
+              <li class="wf-row" style="--s: 56; --e: 62">
+                <a href="#role-capgemini">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/capgemini.svg" alt="" width="16" height="16">Capgemini</span>
+                  <span class="wf-type">Role</span>
+                  <span class="wf-time">6 mo</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">September 2020 to February 2021</span></span>
+                </a>
+              </li>
+              <li class="wf-row" style="--s: 61; --e: 95">
+                <a href="#role-caw">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/caw-studios.png" alt="" width="16" height="16">CAW Studios</span>
+                  <span class="wf-type">Role</span>
+                  <span class="wf-time">2 yr 10 mo</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">February 2021 to November 2023</span></span>
+                </a>
+              </li>
+              <li class="wf-row" style="--s: 94; --e: 117">
+                <a href="#role-instill">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/instill.png" alt="" width="16" height="16">Instill</span>
+                  <span class="wf-type">Role</span>
+                  <span class="wf-time">1 yr 11 mo</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">November 2023 to September 2025</span></span>
+                </a>
+              </li>
+              <li class="wf-row" style="--s: 116; --e: 122">
+                <a href="#role-highlevel">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/highlevel.png" alt="" width="16" height="16">HighLevel</span>
+                  <span class="wf-type">Role</span>
+                  <span class="wf-time">6 mo</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">September 2025 to February 2026</span></span>
+                </a>
+              </li>
+              <li class="wf-row wf-row--live" style="--s: 121; --e: 130" data-ongoing>
+                <a href="#role-deque">
+                  <span class="wf-name"><img class="wf-logo" src="assets/logos/deque.svg" alt="" width="16" height="16">Deque Systems</span>
+                  <span class="wf-type">Role</span>
+                  <span class="wf-time">Pending</span>
+                  <span class="wf-track"><span class="wf-bar"></span><span class="visually-hidden">February 2026 to present</span></span>
+                </a>
+              </li>
+            </ol>
+            <figcaption class="wf-foot">Career timeline <span aria-hidden="true">·</span> 7 entries <span aria-hidden="true">·</span> 2016 to present <span aria-hidden="true">·</span> Finish: pending</figcaption>
+          </figure>
+
+          <ol class="roles">
+            <li class="role" id="role-deque">
+              <div class="role__when">
+                <p class="role__dates">Feb 2026 – Present</p>
+                <p>Hyderabad, India <span aria-hidden="true">·</span> Remote</p>
+              </div>
+              <div class="role__body">
+                <div class="role__head">
+                  <img class="logo-tile" src="assets/logos/deque.svg" alt="" width="48" height="48">
+                  <div>
+                    <h3>Deque Systems</h3>
+                    <p class="role__title">Software Development Engineer III</p>
+                  </div>
+                </div>
+                <ul class="points">
+                  <li>Build full-stack features for Deque's digital accessibility products with TypeScript and Node.js.</li>
+                  <li>Work across the frontend, backend services and cloud infrastructure behind them.</li>
+                </ul>
+                <ul class="chips" aria-label="Stack">
+                  <li>TypeScript</li><li>Node.js</li><li>Back-end development</li>
+                </ul>
+              </div>
+            </li>
+            <li class="role" id="role-highlevel">
+              <div class="role__when">
+                <p class="role__dates">Sep 2025 – Feb 2026</p>
+                <p>Dallas, Texas</p>
+              </div>
+              <div class="role__body">
+                <div class="role__head">
+                  <img class="logo-tile" src="assets/logos/highlevel.png" alt="" width="48" height="48">
+                  <div>
+                    <h3>HighLevel</h3>
+                    <p class="role__title">Software Development Engineer III</p>
+                  </div>
+                </div>
+                <ul class="points">
+                  <li>Built and scaled full-stack systems for production applications with Vue.js, Node.js, EKS, Firebase, MongoDB and TypeScript.</li>
+                  <li>Drove frontend performance and UX work with reusable Vue.js components and micro frontends, for faster loads and smoother interactions.</li>
+                  <li>Designed and shipped NestJS and Node.js APIs with clean abstractions that integrate across distributed services.</li>
+                </ul>
+                <ul class="chips" aria-label="Stack">
+                  <li>Vue.js</li><li>Vuex</li><li>Micro frontends</li><li>NestJS</li><li>Node.js</li><li>Kubernetes</li><li>Elasticsearch</li><li>PostgreSQL</li><li>MongoDB</li>
+                </ul>
+              </div>
+            </li>
+            <li class="role" id="role-instill">
+              <div class="role__when">
+                <p class="role__dates">Nov 2023 – Sep 2025</p>
+                <p>Los Angeles, California</p>
+              </div>
+              <div class="role__body">
+                <div class="role__head">
+                  <img class="logo-tile" src="assets/logos/instill.png" alt="" width="48" height="48">
+                  <div>
+                    <h3>Instill</h3>
+                    <p class="role__title">Senior Software Engineer</p>
+                  </div>
+                </div>
+                <ul class="points">
+                  <li>Started on the frontend and grew into a full-stack role, building features with React, Node.js, Python, AWS, PostgreSQL and TypeScript.</li>
+                  <li>Improved frontend usability and responsiveness with efficient React components.</li>
+                  <li>Built backend APIs with FastAPI and Node.js that perform well and integrate cleanly across services.</li>
+                </ul>
+                <ul class="chips" aria-label="Stack">
+                  <li>React</li><li>Redux</li><li>Node.js</li><li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>AWS</li><li>Terraform</li><li>TypeScript</li>
+                </ul>
+              </div>
+            </li>
+            <li class="role" id="role-caw">
+              <div class="role__when">
+                <p class="role__dates">Feb 2021 – Nov 2023</p>
+                <p>Hyderabad, India</p>
+              </div>
+              <div class="role__body">
+                <div class="role__head">
+                  <img class="logo-tile" src="assets/logos/caw-studios.png" alt="" width="48" height="48">
+                  <div>
+                    <h3>CAW Studios</h3>
+                    <p class="role__title">Senior Software Engineer</p>
+                  </div>
+                </div>
+                <ul class="points">
+                  <li>Led and guided teams building robust, scalable applications with React, Next.js, TypeScript and Node.js.</li>
+                  <li>Led full-stack development on Sr Pago, Interakt, Calibrate and Hoichoi with React, Svelte, AWS, GraphQL and MongoDB.</li>
+                  <li>Led performance work on Hoichoi's multi-app monorepo and cut page load times by 50% with Stencil, Svelte, Next.js, web components and modern caching.</li>
+                  <li>Designed Hoichoi's monorepo architecture from scratch so apps written in different frameworks could work together.</li>
+                  <li>Shipped and ran web apps on AWS with cross-functional teams, keeping them highly available.</li>
+                </ul>
+                <ul class="chips" aria-label="Stack">
+                  <li>React</li><li>Next.js</li><li>Svelte</li><li>Stencil</li><li>Redux</li><li>Node.js</li><li>GraphQL</li><li>MongoDB</li><li>AWS</li><li>Terraform</li>
+                </ul>
+              </div>
+            </li>
+            <li class="role" id="role-capgemini">
+              <div class="role__when">
+                <p class="role__dates">Sep 2020 – Feb 2021</p>
+                <p>Bengaluru, India</p>
+              </div>
+              <div class="role__body">
+                <div class="role__head">
+                  <img class="logo-tile logo-tile--padded" src="assets/logos/capgemini.svg" alt="" width="48" height="48">
+                  <div>
+                    <h3>Capgemini</h3>
+                    <p class="role__title">Senior Analyst</p>
+                  </div>
+                </div>
+                <ul class="points">
+                  <li>Built full-stack internal tools with JavaScript, React, Node.js, Express, .NET Core, MongoDB and MSSQL.</li>
+                  <li>Automated repetitive workflows, raising internal team productivity by 15%.</li>
+                  <li>Kept data consistent and queries fast with MSSQL.</li>
+                </ul>
+                <ul class="chips" aria-label="Stack">
+                  <li>React</li><li>Node.js</li><li>Express</li><li>.NET Core</li><li>MongoDB</li><li>MSSQL</li>
+                </ul>
+              </div>
+            </li>
+            <li class="role" id="role-mcaffeine">
+              <div class="role__when">
+                <p class="role__dates">Mar 2017</p>
+                <p>Bengaluru, India</p>
+              </div>
+              <div class="role__body">
+                <div class="role__head">
+                  <img class="logo-tile logo-tile--padded" src="assets/logos/mcaffeine.png" alt="" width="48" height="48">
+                  <div>
+                    <h3>mCaffeine</h3>
+                    <p class="role__title">Frontend Developer Intern</p>
+                  </div>
+                </div>
+                <ul class="points">
+                  <li>Worked on the web team at India's first caffeinated personal care brand, building frontend pages with HTML, CSS and JavaScript.</li>
+                </ul>
+                <ul class="chips" aria-label="Stack">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="wrap">
+          <header class="section__head">
+            <h2 id="projects-title">Selected projects</h2>
+            <p class="section__meta">6 featured, 2 earlier</p>
+          </header>
+
+          <div class="projects">
+            <article class="project" aria-labelledby="project-hoichoi">
+              <div class="project__head">
+                <div>
+                  <p class="project__context">Streaming platform <span aria-hidden="true">·</span> CAW Studios</p>
+                  <h3 id="project-hoichoi">Hoichoi TV</h3>
+                </div>
+                <p class="metric">−50% page load</p>
+              </div>
+              <p>A rebuild of the Hoichoi streaming platform's web and TV apps, aimed at speed and scale.</p>
+              <ul class="points">
+                <li>Set up an Nx monorepo so several apps build and deploy from one place.</li>
+                <li>Rebuilt the frontend with React, Next.js, Svelte and Stencil, halving page load times.</li>
+                <li>Shared UI across apps as web components, documented in Storybook.</li>
+              </ul>
+              <p class="project__stack">Nx, React, Next.js, Svelte, Stencil, Web Components, TanStack Query, Tailwind CSS</p>
+              <a class="project__link" href="https://www.hoichoi.tv/">hoichoi.tv<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+            </article>
+
+            <article class="project" aria-labelledby="project-instill">
+              <div class="project__head">
+                <div>
+                  <p class="project__context">Workplace platform <span aria-hidden="true">·</span> Instill</p>
+                  <h3 id="project-instill">Instill AI</h3>
+                </div>
+                <p class="metric">−20% load time</p>
+              </div>
+              <p>A web app that gives businesses tools and workflows to improve efficiency and employee engagement.</p>
+              <ul class="points">
+                <li>Built the React frontend.</li>
+                <li>Moved data fetching and state to TanStack Query and Axios, cutting load times by 20%.</li>
+                <li>Built a shared component library with Storybook and Tailwind CSS.</li>
+              </ul>
+              <p class="project__stack">React, TanStack Query, Axios, Storybook, Tailwind CSS</p>
+              <a class="project__link" href="https://beta.instill.ai">beta.instill.ai<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+            </article>
+
+            <article class="project" aria-labelledby="project-calibrate">
+              <div class="project__head">
+                <div>
+                  <p class="project__context">Hiring suite <span aria-hidden="true">·</span> CAW Studios internal</p>
+                  <h3 id="project-calibrate">Calibrate</h3>
+                </div>
+              </div>
+              <p>CAW Studios' internal hiring tools: a candidate dashboard, a test platform and a recruiter app.</p>
+              <ul class="points">
+                <li>Led frontend development for all three apps, building them from scratch with junior developers.</li>
+                <li>Shared code across the apps in an Nx monorepo.</li>
+                <li>Used TanStack Query and Axios for faster data loading.</li>
+              </ul>
+              <p class="project__stack">React, Nx, TanStack Query, Axios, Storybook, Tailwind CSS</p>
+            </article>
+
+            <article class="project" aria-labelledby="project-interakt">
+              <div class="project__head">
+                <div>
+                  <p class="project__context">WhatsApp Business app <span aria-hidden="true">·</span> built for Haptik</p>
+                  <h3 id="project-interakt">Interakt</h3>
+                </div>
+              </div>
+              <p>A web app that lets sales teams manage customer conversations through WhatsApp Business.</p>
+              <ul class="points">
+                <li>Led frontend development with React and Redux.</li>
+                <li>Kept customer data in sync with real-time updates across the app.</li>
+                <li>Built reusable components with Storybook and Styled Components.</li>
+              </ul>
+              <p class="project__stack">React, Redux, Axios, Styled Components, Storybook</p>
+              <a class="project__link" href="https://app.interakt.ai">app.interakt.ai<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+            </article>
+
+            <article class="project" aria-labelledby="project-srpago">
+              <div class="project__head">
+                <div>
+                  <p class="project__context">Payments SaaS <span aria-hidden="true">·</span> built for Sr Pago</p>
+                  <h3 id="project-srpago">Sr Pago</h3>
+                </div>
+              </div>
+              <p>A SaaS web app where customers apply for services, track their progress and manage users.</p>
+              <ul class="points">
+                <li>Led frontend development with React, Redux and Material UI.</li>
+                <li>Added secure sign-in and user management with AWS Amplify and AWS Cognito.</li>
+              </ul>
+              <p class="project__stack">React, Redux, Material UI, AWS Amplify, AWS Cognito, Node.js</p>
+            </article>
+
+            <article class="project" aria-labelledby="project-polls">
+              <div class="project__head">
+                <div>
+                  <p class="project__context">Slack app</p>
+                  <h3 id="project-polls">Polls for Slack</h3>
+                </div>
+              </div>
+              <p>A polls app for Slack with several poll types, posted to channels in real time.</p>
+              <ul class="points">
+                <li>Built and launched it with Node.js, Next.js and Nx.</li>
+                <li>Queued and distributed polls with BullMQ, Redis and PostgreSQL.</li>
+              </ul>
+              <p class="project__stack">Node.js, Next.js, Nx, BullMQ, Redis, PostgreSQL, Tailwind CSS</p>
+            </article>
+          </div>
+
+          <div class="earlier">
+            <h3 class="earlier__title">Earlier projects</h3>
+            <ul class="earlier__list">
+              <li>
+                <p class="earlier__name">AI-powered Tic Tac Toe <span class="earlier__date">Dec 2020</span></p>
+                <p>A Tic Tac Toe game where the computer plays like a pro, built on the MERN stack with jQuery and Axios.</p>
+              </li>
+              <li>
+                <p class="earlier__name">Employee Payroll App <span class="earlier__date">Oct 2020</span></p>
+                <p>A full-stack app that stores and manages a company's employee data, built with ASP.NET MVC, JavaScript and Bootstrap.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="recommendations" class="section section--band" aria-labelledby="recommendations-title">
+        <div class="wrap">
+          <header class="section__head">
+            <h2 id="recommendations-title">What colleagues say</h2>
+            <p class="section__meta">5 recommendations on LinkedIn</p>
+          </header>
+
+          <div class="praise">
+            <figure class="praise__feature">
+              <span class="praise__mark" aria-hidden="true">“</span>
+              <blockquote>
+                <p>One of the most talented and versatile developers I’ve worked with.</p>
+              </blockquote>
+              <figcaption><span class="praise__name">Dan Kasper</span> <span class="praise__role">Managed Mathura for over two years at Instill</span></figcaption>
+            </figure>
+
+            <div class="praise__side">
+              <ul class="praise__list">
+                <li>
+                  <p class="praise__name">Madhvendra Tiwari <span class="praise__role">Managed Mathura at Instill</span></p>
+                  <p>Highlights Mathura's drive to learn, end-to-end ownership and speed at picking up new technologies.</p>
+                </li>
+                <li>
+                  <p class="praise__name">Jatin Parekh <span class="praise__role">Managed Mathura on Interakt</span></p>
+                  <p>Credits Mathura's React skills, independent feature delivery and help running the team's frontend reviews.</p>
+                </li>
+                <li>
+                  <p class="praise__name">Hareen Desai <span class="praise__role">Senior colleague, 2021</span></p>
+                  <p>Points to Mathura's React and Redux work on a complex project, steady dedication and problem solving.</p>
+                </li>
+                <li>
+                  <p class="praise__name">Gabriel Moreira <span class="praise__role">Managed Mathura, 2021</span></p>
+                  <p>Describes Mathura moving a complicated, loosely specified project forward while improving the codebase.</p>
+                </li>
+              </ul>
+              <a class="project__link" href="https://www.linkedin.com/in/mathuradas/">Read them on LinkedIn<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="wrap">
+          <header class="section__head">
+            <h2 id="skills-title">Skills</h2>
+          </header>
+
+          <div class="skills">
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <ul class="skill-list">
+                <li><span class="skill-icon" style="--icon: url(assets/icons/javascript.svg)" aria-hidden="true"></span>JavaScript</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/typescript.svg)" aria-hidden="true"></span>TypeScript</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/python.svg)" aria-hidden="true"></span>Python</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/go.svg)" aria-hidden="true"></span>Go</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/openjdk.svg)" aria-hidden="true"></span>Java</li>
+                <li><span class="skill-icon skill-icon--text" aria-hidden="true">C#</span>C#</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/cplusplus.svg)" aria-hidden="true"></span>C++</li>
+                <li><span class="skill-icon skill-icon--text" aria-hidden="true">SQL</span>SQL</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Frontend</h3>
+              <ul class="skill-list">
+                <li><span class="skill-icon" style="--icon: url(assets/icons/react.svg)" aria-hidden="true"></span>React</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/nextdotjs.svg)" aria-hidden="true"></span>Next.js</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/vuedotjs.svg)" aria-hidden="true"></span>Vue.js</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/svelte.svg)" aria-hidden="true"></span>Svelte</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/stencil.svg)" aria-hidden="true"></span>Stencil</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/webcomponentsdotorg.svg)" aria-hidden="true"></span>Web Components</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/redux.svg)" aria-hidden="true"></span>Redux</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/recoil.svg)" aria-hidden="true"></span>Recoil</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/reactquery.svg)" aria-hidden="true"></span>TanStack Query</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/tailwindcss.svg)" aria-hidden="true"></span>Tailwind CSS</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/styledcomponents.svg)" aria-hidden="true"></span>styled-components</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/storybook.svg)" aria-hidden="true"></span>Storybook</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Backend</h3>
+              <ul class="skill-list">
+                <li><span class="skill-icon" style="--icon: url(assets/icons/nodedotjs.svg)" aria-hidden="true"></span>Node.js</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/nestjs.svg)" aria-hidden="true"></span>NestJS</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/express.svg)" aria-hidden="true"></span>Express</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/fastapi.svg)" aria-hidden="true"></span>FastAPI</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/graphql.svg)" aria-hidden="true"></span>GraphQL</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/dotnet.svg)" aria-hidden="true"></span>.NET Core</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Data</h3>
+              <ul class="skill-list">
+                <li><span class="skill-icon" style="--icon: url(assets/icons/postgresql.svg)" aria-hidden="true"></span>PostgreSQL</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/mongodb.svg)" aria-hidden="true"></span>MongoDB</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/mysql.svg)" aria-hidden="true"></span>MySQL</li>
+                <li><span class="skill-icon skill-icon--text" aria-hidden="true">MS</span>MSSQL</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/redis.svg)" aria-hidden="true"></span>Redis</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/elasticsearch.svg)" aria-hidden="true"></span>Elasticsearch</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/firebase.svg)" aria-hidden="true"></span>Firebase</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Cloud and tooling</h3>
+              <ul class="skill-list">
+                <li><span class="skill-icon skill-icon--text" aria-hidden="true">AWS</span>AWS</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/kubernetes.svg)" aria-hidden="true"></span>Kubernetes</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/docker.svg)" aria-hidden="true"></span>Docker</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/terraform.svg)" aria-hidden="true"></span>Terraform</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/nx.svg)" aria-hidden="true"></span>Nx</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/turborepo.svg)" aria-hidden="true"></span>Turborepo</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/webpack.svg)" aria-hidden="true"></span>Webpack</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Testing</h3>
+              <ul class="skill-list">
+                <li><span class="skill-icon" style="--icon: url(assets/icons/jest.svg)" aria-hidden="true"></span>Jest</li>
+                <li><span class="skill-icon" style="--icon: url(assets/icons/cypress.svg)" aria-hidden="true"></span>Cypress</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="practices"><span class="practices__label">Also</span> Micro frontends <span aria-hidden="true">·</span> Full-stack development <span aria-hidden="true">·</span> Object-oriented programming <span aria-hidden="true">·</span> Machine learning <span aria-hidden="true">·</span> Data analysis <span aria-hidden="true">·</span> Team leadership</p>
+        </div>
+      </section>
+
+      <section id="education" class="section" aria-labelledby="education-title">
+        <div class="wrap">
+          <header class="section__head">
+            <h2 id="education-title">Education and certifications</h2>
+          </header>
+
+          <div class="credentials">
+            <div class="credential-group">
+              <h3>Education</h3>
+              <div class="degree">
+                <p class="degree__school">Indian Institute of Technology (ISM), Dhanbad</p>
+                <p>B.Tech, Electrical Engineering</p>
+                <p class="degree__meta">2016 – 2020 <span aria-hidden="true">·</span> OGPA 8.27</p>
+              </div>
+              <div class="degree">
+                <p class="degree__school">International Hindu School, Varanasi</p>
+                <p>Class 12</p>
+                <p class="degree__meta">2015 – 2016 <span aria-hidden="true">·</span> 91.6%</p>
+              </div>
+              <h3 class="credential-group__sub">Languages</h3>
+              <ul class="certs">
+                <li><strong>English</strong><span class="cert__result">Professional</span></li>
+                <li><strong>Hindi</strong><span class="cert__result">Professional</span></li>
+                <li><strong>Gujarati</strong><span class="cert__result">Limited</span></li>
+              </ul>
+            </div>
+
+            <div class="credential-group">
+              <h3>Certifications</h3>
+              <ul class="courses">
+                <li><strong>Applied Machine Learning in Python</strong> <span class="cert__issuer">University of Michigan, Coursera <span aria-hidden="true">·</span> Aug 2020 <span aria-hidden="true">·</span> <a href="https://www.coursera.org/verify/7RKJ7UDB3HM3">Verify<span class="visually-hidden"> Applied Machine Learning in Python</span></a></span></li>
+                <li><strong>Applied Plotting, Charting and Data Representation in Python</strong> <span class="cert__issuer">University of Michigan, Coursera <span aria-hidden="true">·</span> Aug 2020 <span aria-hidden="true">·</span> <a href="https://www.coursera.org/verify/JV5J8VY3M6LF">Verify<span class="visually-hidden"> Applied Plotting, Charting and Data Representation in Python</span></a></span></li>
+                <li><strong>Introduction to Data Science in Python</strong> <span class="cert__issuer">University of Michigan, Coursera <span aria-hidden="true">·</span> Jul 2020 <span aria-hidden="true">·</span> <a href="https://www.coursera.org/verify/HM2LZLM5E9C7">Verify<span class="visually-hidden"> Introduction to Data Science in Python</span></a></span></li>
+                <li><strong>Python</strong> <span class="cert__issuer">HackerRank <span aria-hidden="true">·</span> Jun 2020</span></li>
+                <li><strong>Cybersecurity Awareness</strong> <span class="cert__issuer">Traliant <span aria-hidden="true">·</span> Nov 2025</span></li>
+                <li><strong>Global Data Privacy Awareness</strong> <span class="cert__issuer">Traliant <span aria-hidden="true">·</span> Nov 2025</span></li>
+              </ul>
+            </div>
+
+            <div class="credential-group">
+              <h3>Skill assessments</h3>
+              <ul class="certs">
+                <li><span><strong>JavaScript</strong> <span class="cert__issuer">LinkedIn</span></span><span class="cert__result">Top 5% of 0.8M</span></li>
+                <li><span><strong>C#</strong> <span class="cert__issuer">LinkedIn</span></span><span class="cert__result">Top 5% of 0.5M</span></li>
+                <li><span><strong>React.js</strong> <span class="cert__issuer">LinkedIn</span></span><span class="cert__result">Top 30% of 0.2M</span></li>
+                <li><span><strong>Python</strong> <span class="cert__issuer">LinkedIn</span></span><span class="cert__result">Top 30% of 1M</span></li>
+              </ul>
+              <h3 class="credential-group__sub">Courses</h3>
+              <ul class="courses">
+                <li><strong>Full Stack Developer training</strong> <span class="cert__issuer">BridgeLabz</span></li>
+                <li><strong>Data Science</strong> <span class="cert__issuer">edureka</span></li>
+                <li><strong>Machine Learning</strong> <span class="cert__issuer">Simplilearn</span></li>
+                <li><strong>Python</strong> <span class="cert__issuer">freeCodeCamp</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
+        <div class="wrap">
+          <header class="section__head">
+            <h2 id="contact-title">Contact</h2>
+          </header>
+
+          <div class="contact__grid">
+            <div class="contact__main">
+              <p class="contact__lead">For roles, projects or questions about my work, email me.</p>
+              <p class="contact__email"><a id="email-address" href="mailto:mathuradas333@gmail.com">mathuradas333@gmail.com</a></p>
+              <div class="contact__copy">
+                <button id="copy-email" class="btn" type="button">Copy email address</button>
+                <p id="copy-status" class="copy-status" role="status"></p>
+              </div>
+            </div>
+
+            <ul class="contact__links">
+              <li><a href="https://github.com/mathura333"><span class="contact__label">GitHub</span><span class="contact__handle">github.com/mathura333<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></span></a></li>
+              <li><a href="https://www.linkedin.com/in/mathuradas"><span class="contact__label">LinkedIn</span><span class="contact__handle">linkedin.com/in/mathuradas<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></span></a></li>
+              <li><a href="https://www.hackerrank.com/mathura"><span class="contact__label">HackerRank</span><span class="contact__handle">hackerrank.com/mathura<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9" /></svg></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__inner">
+        <p>Mathura Das</p>
+        <p>Set in Archivo and Atkinson Hyperlegible. Tech logos from <a href="https://simpleicons.org">Simple Icons</a>. <a href="#top">Back to top</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
